@@ -2,7 +2,7 @@
 
 int main(int argc, const char* argv[]) {
 
-    if (srgc < 2)
+    if (argc < 2)
         return 0;
 
     for (int i = 1; i < argc; i++) { 
