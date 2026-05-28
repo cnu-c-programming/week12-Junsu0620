@@ -19,7 +19,7 @@ if (fp == NULL)
     }
 
     for (int i = 0; i < 26; i++) {
-        printf("%c : %d\n", 'a' + i, num[i]);
+        printf("%c: %d\n", 'a' + i, num[i]);
     }
 
     fclose(fp);
