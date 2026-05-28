@@ -18,7 +18,7 @@ int main(int argc, const char* argv[]) {
             sum += num;
         }
         else {
-            fprintf(stderr, "invalid: %s\n", str);
+            fprintf(stderr, "invalid input %s\n", str);
         }
     }
 
