@@ -16,7 +16,7 @@ void config_parser(Config* config_ptr) {
     fscanf(fp, "%*[^=]=%s", config_ptr->InputFileName);
     fscanf(fp, "%*[^=]=%d", &config_ptr->Options);
     fscanf(fp, "%*[^=]=%s", config_ptr->SectionName);
-    fscanf(fp, "%*[^=]=%lld", &(config_ptr->Address));
+     fscanf(fp, "%*[^=]=%llx", &config_ptr->Address);
 
     fclose(fp);
 }
